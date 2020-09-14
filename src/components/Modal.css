@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "JSDongkang-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSDongkang-RegularA1.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+  padding-left: 20px;
+}
+@font-face {
+  font-family: "Handon3gyeopsal600g";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.modal_addr1,
+.modal_addr2 {
+  white-space: pre-wrap;
+}
+
+.modal_p {
+  font-family: "JSDongkang-Regular";
+  font-size: 17px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  color: gray;
+}
+.modal_footer {
+  display: block;
+  font-size: 20px;
+}
+.modal_header {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  font-family: "Handon3gyeopsal600g";
+  font-size: 2.4rem;
+  padding: 1rem 0;
+  padding-left: 1rem;
+  font-weight: bold;
+  background-color: rgba(135, 180, 124, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal_addr,
+.modal_ph,
+.modal_addr1,
+.modal_addr2,
+.num1,
+.modal_addr_doro,
+.modal_addr_jibeon {
+  font-family: "JSDongkang-Regular";
+}
+.modal_addr,
+.modal_ph {
+  width: 60px;
+  font-size: 1.2rem;
+  font-family: "JSDongkang-Regular";
+  color: gray;
+}
+.modal_addr1,
+.modal_addr2 {
+  margin-left: 2rem;
+  font-size: 1.2rem;
+}
+.modal_ph {
+  /* border-top: 1px solid #8e8e8e;
+  border-bottom: 1px solid #8e8e8e; */
+  width: 60px;
+}
+.pharmacy-wrap {
+  width: 40rem;
+  background: #f8f8f8;
+  box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+.modal_body {
+  padding: 20px 40px;
+}
+.num1 {
+  font-size: 1.3rem;
+  margin-left: 20px;
+}
+
+.modal_addrs_container,
+.modal_ph_container {
+  display: flex;
+}
+
+.modal_addrs_contents {
+  margin-left: 20px;
+}
+
+.modal_ph_container {
+  align-items: center;
+  border-top: 1px solid #8e8e8e;
+  border-bottom: 1px solid #8e8e8e;
+  padding: 19px 0px;
+}
+
+.doro_container,
+.jibeon_container {
+  display: flex;
+}
+
+.modal_addr_doro,
+.modal_addr_jibeon {
+  width: 50px;
+}
+
+.modal_header {
+  margin-left: 0px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.close:hover {
+  cursor: pointer;
+}
+
+.fa-times:hover {
+  cursor: pointer;
+}
+.modal_p_inner{
+  margin-left: 8px!important;
+}
