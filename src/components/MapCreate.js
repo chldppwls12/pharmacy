@@ -3,7 +3,7 @@ import './Modal.css'
 import './MapCreate.css'
 import {Dropdown, DropdownButton, Navbar} from "react-bootstrap";
 import { Link, withRouter } from "react-router-dom";
-
+import logo2 from '../components/logo2.png';
 
 
 class MapCreate extends React.Component {
@@ -327,7 +327,7 @@ class MapCreate extends React.Component {
       <div className = "all">
         <Navbar className = "navbar">
           <Navbar.Brand href="/" className = "navbarBrand">
-            <img alt="logo" src="/logo2.png"
+            <img alt="logo" src={logo2}
               className="d-inline-block"/>
             <p href = "/" className = "name">동물약국 찾기</p>
           </Navbar.Brand>
