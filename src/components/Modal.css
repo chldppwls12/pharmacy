@@ -183,9 +183,9 @@
   }
 } 
 
-@media screen and (max-width: 400px){ 
+ @media screen and (max-width: 400px){ 
   .pharmacy-wrap{
-    width: 20rem;
+    width: 18rem;
   }
   .modal_header{
     padding: 0.6rem 0.6rem!important;
@@ -236,32 +236,33 @@
     height: 2.2rem!important;
     width: 2.2rem!important;
   }
-} 
+}
 
-@media screen and (max-width: 350px){ 
+@media screen and (max-width: 420px){ 
   .pharmacy-wrap{
-    width: 18rem;
+    width: 20rem;
   }
   .modal_header{
     padding: 0.6rem 0.6rem!important;
   }
   .close_wrap{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .modal_body{
-    padding-left: 0.6em;
-    padding-right: 0.6rem;
-    padding-top: 0.6rem;
+    padding-left: 0.8em;
+    padding-right: 0.8rem;
+    padding-top: 0.8rem;
     padding-bottom: 0;
   }
   .modal_addr, .modal_ph{
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
   .modal_addr_doro, .modal_addr_jibeon{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+    margin-top: 2px;
   }
   .modal_addr2, .modal_addr1{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-left: 1.1rem;
   }
   .num1{
@@ -272,16 +273,16 @@
     padding: 0.8rem 0;
   }
   .modal_addr_doro, .modal_addr_jibeon, .modal_addr1, .modal_addr2{
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
   }
   .modal_p{
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     padding: 0.6rem 1rem;
     display: flex;
     align-items: center;
   }
   .fa-exclamation-triangle{
-   height: 0.5rem!important;
+   height: 0.7rem!important;
    width: 0.7rem!important;
   }
   .modal_p_inner{
