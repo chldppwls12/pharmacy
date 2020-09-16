@@ -12,7 +12,7 @@
 }
 .navbar{
     background-color: rgba(135, 180, 124, 0.7);
-    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between!important;
 }
