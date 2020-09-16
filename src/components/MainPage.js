@@ -4,6 +4,10 @@ import { DropdownButton, Dropdown } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 import { faSearch } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import logo2 from "./images/logo2.png";
+import process_1 from "./images/process_1.png";
+import process_2 from "./images/process_2.png";
+import process_3 from "./images/process_3.png";
 
 class Main extends React.Component {
 
@@ -14,7 +18,7 @@ class Main extends React.Component {
         <div className="part1">
           <div>
             <div className="logo_title">
-              <img className="logo" alt="logo" src="/logo2.png"></img>
+              <img className="logo" alt="logo" src={logo2}></img>
               <h1 className="title">동물약국 찾기</h1>
             </div>
             <p className="desc">경기도 28개 시군의 동물의약품 취급・판매 허가 약국을 찾아보세요</p>
@@ -40,21 +44,21 @@ class Main extends React.Component {
               <div className="guide_step">STEP 1</div>
               <div className="guide_text">선택 창을 눌러 지역을 선택하세요</div><br></br>
             </div>
-            <img src="/process_1.png" className="guide_img" alt = "process"></img>
+            <img src={process_1} className="guide_img" alt = "process"></img>
           </div>
           <div className="part2_2">
             <div className="guide_step_text">
               <div className="guide_step">STEP 2</div>
               <div className="guide_text">지도 확대/축소와 드래그를 이용해 세부 지역을 찾으세요</div><br></br>
             </div>
-            <img src="/process_2.png" className="guide_img" alt = "process"></img>
+            <img src={process_2} className="guide_img" alt = "process"></img>
           </div>
           <div className="part2_3">
             <div className="guide_step_text">
               <div className="guide_step">STEP 3</div>
               <div className="guide_text">핀을 클릭해 약국의 정보를 확인하세요</div><br></br>
             </div>
-            <img src="/process_3.png" className="guide_img" alt = "process"></img>
+            <img src={process_3} className="guide_img" alt = "process"></img>
           </div>
         </div>
       </div>
