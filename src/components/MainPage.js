@@ -9,6 +9,7 @@ import process_1 from '../components/process_1.png';
 import process_2 from '../components/process_2.png';
 import process_3 from '../components/process_3.png';
 
+
 class Main extends React.Component {
 
   render() {
@@ -45,6 +46,7 @@ class Main extends React.Component {
               <div className="guide_text">선택 창을 눌러 지역을 선택하세요</div><br></br>
             </div>
             <img src={process_1} className="guide_img" alt = "process1"/>
+
           </div>
           <div className="part2_2">
             <div className="guide_step_text">
@@ -52,6 +54,7 @@ class Main extends React.Component {
               <div className="guide_text">지도 확대/축소와 드래그를 이용해 세부 지역을 찾으세요</div><br></br>
             </div>
             <img src={process_2} className="guide_img" alt = "process2"></img>
+
           </div>
           <div className="part2_3">
             <div className="guide_step_text">

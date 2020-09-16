@@ -13,8 +13,6 @@
 .navbar{
     background-color: rgba(135, 180, 124, 0.7);
     width: 100%;
-    display: flex;
-    justify-content: space-between!important;
 }
 .navbar .name{
     color: white;
@@ -26,6 +24,7 @@
 }
 .navbar_find{
     display: flex;
+    margin-left: auto;
     margin-right: 2rem;
 }
 .navbarBrand{
