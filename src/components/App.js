@@ -1,9 +1,19 @@
 
 import React from 'react';
 import Router from './Router';
+import { Helmet } from "react-helmet";
 
 class App extends React.Component {
- 
+  state = {
+    loading : false
+  }
+
+  componentDidMount(){
+    this.setState({
+      loading : true
+    })
+  }
+
   render(){
   
     const information = [
@@ -39,10 +49,17 @@ class App extends React.Component {
     {id: "41450", name: "하남시"},
     {id: "41590", name: "화성시"}
   ]
-  
+    const { loading } = this.state;
+
     return (
-    <Router information={information} />
-    )
+      loading ? <Router information={information} /> :  <div className="loading-container">
+      <Helmet>
+        <style>{'body { background-color: rgba(152, 194, 142, 0.7); }'}</style>
+      </Helmet>
+      <div className="loading"></div>
+      <div id="loading-text">loading</div>
+    </div> //비동기이므로 loading을 써야함
+      )
   }
 }
 
