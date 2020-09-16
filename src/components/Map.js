@@ -5,6 +5,7 @@ import './Loading.css';
 import { Helmet } from "react-helmet";
 import { withRouter } from "react-router-dom";
 
+
 class Map extends React.Component {
  
   // withRouter를 사용해 props를 줘서 못받은 math,location,history를 받아옴.
