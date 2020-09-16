@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pharmacy/static/css/main.66ea4287.chunk.css",
-    "main.js": "/pharmacy/static/js/main.adbc83f3.chunk.js",
-    "main.js.map": "/pharmacy/static/js/main.adbc83f3.chunk.js.map",
+    "main.js": "/pharmacy/static/js/main.c3adef3e.chunk.js",
+    "main.js.map": "/pharmacy/static/js/main.c3adef3e.chunk.js.map",
     "runtime-main.js": "/pharmacy/static/js/runtime-main.d3a0fd3a.js",
     "runtime-main.js.map": "/pharmacy/static/js/runtime-main.d3a0fd3a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/pharmacy/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.a0c7b2c4.chunk.js": "/pharmacy/static/js/2.a0c7b2c4.chunk.js",
     "static/js/2.a0c7b2c4.chunk.js.map": "/pharmacy/static/js/2.a0c7b2c4.chunk.js.map",
     "index.html": "/pharmacy/index.html",
-    "precache-manifest.316f1c2f6701bde8c3e4df13e4268341.js": "/pharmacy/precache-manifest.316f1c2f6701bde8c3e4df13e4268341.js",
+    "precache-manifest.a74404844525790689f647965d744ba3.js": "/pharmacy/precache-manifest.a74404844525790689f647965d744ba3.js",
     "service-worker.js": "/pharmacy/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/pharmacy/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.66ea4287.chunk.css.map": "/pharmacy/static/css/main.66ea4287.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.a0c7b2c4.chunk.js",
     "static/css/main.66ea4287.chunk.css",
-    "static/js/main.adbc83f3.chunk.js"
+    "static/js/main.c3adef3e.chunk.js"
   ]
 }
