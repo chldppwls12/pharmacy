@@ -330,7 +330,7 @@ class MapCreate extends React.Component {
       <div className = "all">
         <Navbar className = "navbar">
           <Navbar.Brand href="/" className = "navbarBrand">
-            <img alt="logo" src={logo2}
+            <img alt="logo" src={require('./images/logo2.png')}
               className="d-inline-block"/>
             <p href = "/" className = "name">동물약국 찾기</p>
           </Navbar.Brand>
