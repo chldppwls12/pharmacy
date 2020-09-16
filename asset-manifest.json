@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/pharmacy/static/css/main.66ea4287.chunk.css",
-    "main.js": "/pharmacy/static/js/main.a72fb322.chunk.js",
-    "main.js.map": "/pharmacy/static/js/main.a72fb322.chunk.js.map",
+    "main.css": "/pharmacy/static/css/main.00bacefd.chunk.css",
+    "main.js": "/pharmacy/static/js/main.ce9e5a52.chunk.js",
+    "main.js.map": "/pharmacy/static/js/main.ce9e5a52.chunk.js.map",
     "runtime-main.js": "/pharmacy/static/js/runtime-main.d3a0fd3a.js",
     "runtime-main.js.map": "/pharmacy/static/js/runtime-main.d3a0fd3a.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/pharmacy/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.38fb561d.chunk.js": "/pharmacy/static/js/2.38fb561d.chunk.js",
-    "static/js/2.38fb561d.chunk.js.map": "/pharmacy/static/js/2.38fb561d.chunk.js.map",
+    "static/js/2.9985e5e6.chunk.js": "/pharmacy/static/js/2.9985e5e6.chunk.js",
+    "static/js/2.9985e5e6.chunk.js.map": "/pharmacy/static/js/2.9985e5e6.chunk.js.map",
     "index.html": "/pharmacy/index.html",
-    "precache-manifest.1982c7f285579fe8511c5e0f999385df.js": "/pharmacy/precache-manifest.1982c7f285579fe8511c5e0f999385df.js",
+    "precache-manifest.9fe4c27d1b9c52f00303b83be372a8ec.js": "/pharmacy/precache-manifest.9fe4c27d1b9c52f00303b83be372a8ec.js",
     "service-worker.js": "/pharmacy/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/pharmacy/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.66ea4287.chunk.css.map": "/pharmacy/static/css/main.66ea4287.chunk.css.map",
-    "static/js/2.38fb561d.chunk.js.LICENSE.txt": "/pharmacy/static/js/2.38fb561d.chunk.js.LICENSE.txt",
+    "static/css/main.00bacefd.chunk.css.map": "/pharmacy/static/css/main.00bacefd.chunk.css.map",
+    "static/js/2.9985e5e6.chunk.js.LICENSE.txt": "/pharmacy/static/js/2.9985e5e6.chunk.js.LICENSE.txt",
     "static/media/logo2.png": "/pharmacy/static/media/logo2.b37f525c.png",
     "static/media/process_1.png": "/pharmacy/static/media/process_1.7e0a6c95.png",
     "static/media/process_2.png": "/pharmacy/static/media/process_2.a55540a7.png",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.d3a0fd3a.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.38fb561d.chunk.js",
-    "static/css/main.66ea4287.chunk.css",
-    "static/js/main.a72fb322.chunk.js"
+    "static/js/2.9985e5e6.chunk.js",
+    "static/css/main.00bacefd.chunk.css",
+    "static/js/main.ce9e5a52.chunk.js"
   ]
 }
