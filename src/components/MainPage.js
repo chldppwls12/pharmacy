@@ -40,21 +40,21 @@ class Main extends React.Component {
               <div className="guide_step">STEP 1</div>
               <div className="guide_text">선택 창을 눌러 지역을 선택하세요</div><br></br>
             </div>
-            <img src="/process_1.png" className="guide_img"></img>
+            <img src="/process_1.png" className="guide_img" alt = "process"></img>
           </div>
           <div className="part2_2">
             <div className="guide_step_text">
               <div className="guide_step">STEP 2</div>
               <div className="guide_text">지도 확대/축소와 드래그를 이용해 세부 지역을 찾으세요</div><br></br>
             </div>
-            <img src="/process_2.png" className="guide_img"></img>
+            <img src="/process_2.png" className="guide_img" alt = "process"></img>
           </div>
           <div className="part2_3">
             <div className="guide_step_text">
               <div className="guide_step">STEP 3</div>
               <div className="guide_text">핀을 클릭해 약국의 정보를 확인하세요</div><br></br>
             </div>
-            <img src="/process_3.png" className="guide_img"></img>
+            <img src="/process_3.png" className="guide_img" alt = "process"></img>
           </div>
         </div>
       </div>
