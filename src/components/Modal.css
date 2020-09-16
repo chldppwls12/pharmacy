@@ -35,8 +35,7 @@
   border-top-left-radius: 15px;
   font-family: "Handon3gyeopsal600g";
   font-size: 2.4rem;
-  padding: 1rem 0;
-  padding-left: 1rem;
+  padding: 2.5rem 40px!important;
   font-weight: bold;
   background-color: rgba(135, 180, 124, 0.7);
   display: flex;
@@ -71,7 +70,7 @@
   width: 60px;
 }
 .pharmacy-wrap {
-  width: 40rem;
+  width: 38rem;
   background: #f8f8f8;
   box-shadow: 4px 4px 10px 3px rgba(0, 0, 0, 0.25);
   border-radius: 15px;
@@ -111,6 +110,7 @@
 }
 
 .modal_header {
+  height: 4rem;
   margin-left: 0px;
   padding-left: 50px;
   padding-right: 50px;
@@ -127,3 +127,168 @@
 .modal_p_inner{
   margin-left: 8px!important;
 }
+
+@media screen and (max-width: 560px){ 
+  .pharmacy-wrap{
+    width: 26rem;
+  }
+  .modal_header{
+    padding: 1rem 1rem;
+  }
+  .close_wrap{
+    font-size: 1.5rem;
+  }
+  .modal_body{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  .modal_addr, .modal_ph{
+    font-size: 1.2rem;
+  }
+  .modal_addr_doro, .modal_addr_jibeon{
+    font-size: 1rem;
+  }
+  .modal_addr2, .modal_addr1{
+    font-size: 1rem;
+    margin-left: 1.1rem;
+  }
+  .num1{
+    font-size: 1rem;
+    margin-left: 0.6rem;
+  }
+  .modal_ph_container{
+    padding: 1rem 0;
+  }
+  .modal_addr_doro, .modal_addr_jibeon, .modal_addr1, .modal_addr2{
+    margin-bottom: 0.6rem;
+  }
+  .modal_p{
+    font-size: 0.7rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .fa-exclamation-triangle{
+   height: 0.7rem!important;
+   width: 1rem!important;
+  }
+  .modal_p_inner{
+    margin-left: 0.1rem!important;
+  }
+  .fa-times{
+    height: 2.5rem!important;
+    width: 2.5rem!important;
+  }
+} 
+
+@media screen and (max-width: 400px){ 
+  .pharmacy-wrap{
+    width: 20rem;
+  }
+  .modal_header{
+    padding: 0.6rem 0.6rem!important;
+  }
+  .close_wrap{
+    font-size: 1.2rem;
+  }
+  .modal_body{
+    padding-left: 0.6em;
+    padding-right: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0;
+  }
+  .modal_addr, .modal_ph{
+    font-size: 0.9rem;
+  }
+  .modal_addr_doro, .modal_addr_jibeon{
+    font-size: 0.7rem;
+  }
+  .modal_addr2, .modal_addr1{
+    font-size: 0.9rem;
+    margin-left: 1.1rem;
+  }
+  .num1{
+    font-size: 0.9rem;
+    margin-left: 0.6rem;
+  }
+  .modal_ph_container{
+    padding: 1rem 0;
+  }
+  .modal_addr_doro, .modal_addr_jibeon, .modal_addr1, .modal_addr2{
+    margin-bottom: 0.5rem;
+  }
+  .modal_p{
+    font-size: 0.5rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .fa-exclamation-triangle{
+   height: 0.6rem!important;
+   width: 0.8rem!important;
+  }
+  .modal_p_inner{
+    margin-left: 0.1rem!important;
+  }
+  .fa-times{
+    height: 2.2rem!important;
+    width: 2.2rem!important;
+  }
+} 
+
+@media screen and (max-width: 350px){ 
+  .pharmacy-wrap{
+    width: 18rem;
+  }
+  .modal_header{
+    padding: 0.6rem 0.6rem!important;
+  }
+  .close_wrap{
+    font-size: 1.2rem;
+  }
+  .modal_body{
+    padding-left: 0.6em;
+    padding-right: 0.6rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0;
+  }
+  .modal_addr, .modal_ph{
+    font-size: 0.9rem;
+  }
+  .modal_addr_doro, .modal_addr_jibeon{
+    font-size: 0.7rem;
+  }
+  .modal_addr2, .modal_addr1{
+    font-size: 0.8rem;
+    margin-left: 1.1rem;
+  }
+  .num1{
+    font-size: 0.8rem;
+    margin-left: 0.6rem;
+  }
+  .modal_ph_container{
+    padding: 0.8rem 0;
+  }
+  .modal_addr_doro, .modal_addr_jibeon, .modal_addr1, .modal_addr2{
+    margin-bottom: 0.3rem;
+  }
+  .modal_p{
+    font-size: 0.4rem;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .fa-exclamation-triangle{
+   height: 0.5rem!important;
+   width: 0.7rem!important;
+  }
+  .modal_p_inner{
+    margin-left: 0.1rem!important;
+  }
+  .fa-times{
+    height: 2rem!important;
+    width: 2rem!important;
+  }
+} 
