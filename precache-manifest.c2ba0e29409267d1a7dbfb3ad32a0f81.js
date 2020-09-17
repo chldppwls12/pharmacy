@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6131e741578096e9abb6ddee9c6ff69d",
+    "revision": "b7102e418b377dc702304138883e12fe",
     "url": "/pharmacy/index.html"
   },
   {
-    "revision": "eb335b12fe4675f70560",
-    "url": "/pharmacy/static/css/2.11829350.chunk.css"
+    "revision": "df1d664ea33da5d25187",
+    "url": "/pharmacy/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "5f8d8ca47c3f1848f629",
-    "url": "/pharmacy/static/css/main.cfa31a0a.chunk.css"
+    "revision": "49138eaa200b4b221c85",
+    "url": "/pharmacy/static/css/main.30285c2c.chunk.css"
   },
   {
-    "revision": "eb335b12fe4675f70560",
-    "url": "/pharmacy/static/js/2.f58c0309.chunk.js"
+    "revision": "df1d664ea33da5d25187",
+    "url": "/pharmacy/static/js/2.e25df7ad.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/pharmacy/static/js/2.f58c0309.chunk.js.LICENSE.txt"
+    "url": "/pharmacy/static/js/2.e25df7ad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f8d8ca47c3f1848f629",
-    "url": "/pharmacy/static/js/main.b5fb6b4a.chunk.js"
+    "revision": "49138eaa200b4b221c85",
+    "url": "/pharmacy/static/js/main.d4c3c6d5.chunk.js"
   },
   {
     "revision": "b6bee86d387a1a958d58",
